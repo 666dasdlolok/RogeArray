@@ -24,8 +24,6 @@ local RayfieldLibrary = {
 		Default = {
 			TextFont = "Default", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(240, 240, 240),
-
-            SearchIcon = Color3.fromRGB(240, 240, 240),
             XIcon = Color3.fromRGB(240, 240, 240),
 
             Divider = Color3.fromRGB(255,255,255),
@@ -71,7 +69,6 @@ local RayfieldLibrary = {
 			TextFont = "Gotham",  -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(50, 50, 50), -- i need to make all text 240, 240, 240 and base gray on transparency not color to do this
 
-            SearchIcon = Color3.fromRGB(240, 240, 240),
             XIcon = Color3.fromRGB(240, 240, 240),
 
             Divider = Color3.fromRGB(0,0,0),
@@ -117,7 +114,6 @@ local RayfieldLibrary = {
 			TextFont = "Default", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(240, 240, 240),
 
-            SearchIcon = Color3.fromRGB(255, 227, 36),
             XIcon = Color3.fromRGB(255, 227, 36),
 
             Divider = Color3.fromRGB(255,255,255),
