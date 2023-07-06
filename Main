@@ -1697,7 +1697,7 @@ function RayfieldLibrary:CreateWindow(Settings)
                     Dropdown.Title.Text = DropdownSettings.Name
                     Dropdown.Visible = true
                     Tab.Elements[DropdownSettings.Name] = {
-                        type = 'dropdown',
+                        type = 'string',
                         section = DropdownSettings.SectionParent,
                         element = Dropdown
                     }
@@ -1706,8 +1706,6 @@ function RayfieldLibrary:CreateWindow(Settings)
                     else
                         Dropdown.Parent = TabPage
                     end
-        
-                    
                     
                     if DropdownSettings.Multi then
                         Dropdown.Selected.Text = table.concat(DropdownSettings.CurrentOption, ", ")
